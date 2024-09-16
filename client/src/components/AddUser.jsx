@@ -58,7 +58,7 @@ const AddUser = () => {
                 <Input onChange={(e) => onValueChange(e) } name="Phone" />
             </FormControl>
             <FormControl>
-                <Button variant="contained" onClick={() => adduserdetails}>Add User</Button>
+                <Button variant="contained" onClick={() => adduserdetails()}>Add User</Button>
             </FormControl>
         </Container>
     );
